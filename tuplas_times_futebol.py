@@ -24,3 +24,5 @@ print("=-"*10)
 print("=-"*10)
 print("em que posição o 'Grêmio' esta?")
 print(times.index('Grêmio'))
+
+

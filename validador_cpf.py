@@ -1,4 +1,6 @@
-# Verificação de CPF. Desenvolva um programa que solicite a digitação de um número de CPF no formato xxx.xxx.xxx-xx e indique se é um número válido ou inválido através da validação dos dígitos verificadores e dos caracteres de formatação.
+# Verificação de CPF. Desenvolva um programa que solicite a digitação de um número de CPF no
+# formato xxx.xxx.xxx-xx e indique se é um número válido ou inválido através da validação
+# dos dígitos verificadores e dos caracteres de formatação.
 
 def valida_cpf(cpf: str) -> bool:
     """Função para validação de CPF
@@ -45,7 +47,7 @@ def calcula_digito(cpf: str, digito_no: int, cont=10) -> int:
     if cpf_digitos in cpfs_invalidos:
         return False
 
-    digito1_verificacao = calcula_digito(cpf_digitos, 1)
-    digito2_verificacao = calcula_digito(cpf_digitos, 2)
+    digito1_verific = calcula_digito(cpf_digitos, 1)
+    digito2_verific = calcula_digito(cpf_digitos, 2)
 
-    return digito1_verificacao and digito2_verificacao
+    return digito1_verific and digito2_verific
