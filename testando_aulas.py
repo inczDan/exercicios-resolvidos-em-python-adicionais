@@ -91,3 +91,52 @@
 #     print(f"A situação do(a) aluno(a) {alunos['nome']} é Reprovado(a)")
 # else:
 #     print(f"A situação do(a) aluno(a) {alunos['nome']} é Aprovado(a)")
+
+# EXEMPLO DE DEFINIÇÃO DE FUNÇÃO E SUA EXECUÇÃO
+# def mostralinha():
+#     print('-'*10)
+# mostralinha()
+# print("sistema de alunos")
+# mostralinha()
+# print("cadastro de funcionarios")
+# mostralinha()
+
+# def mensagem(msg):
+#     print('-' * 20)
+#     print(msg)
+#
+#
+#
+# mensagem('olá mundo')
+# mensagem('vamos lá')
+# mensagem('nao entendi')
+#
+# def soma(a, b):
+#     s = a+b
+#     print(s)
+#
+# soma(10, 5)
+# soma(1, 8)
+# soma(39, 2)
+
+# def dobra(lst):
+#     print(lst) # a lista valores é a mesma coisa que lst
+    # pos = 0
+    # while pos < len(lst):
+    #     lst[pos]*=2
+    #     pos+=1
+#
+# valores = [1, 5, 6, 10]
+# dobra(valores)
+# print(valores)
+
+# def soma(*num): #a função soma está condizendo com os valores la de baixo do codigo (soma)
+#     # # *num é um pacote pois a def soma nao contem parametros identicos, algumas contem 2, outras 3
+#     s = 0
+#     for n in num:
+#         s += n
+#     print(s)
+#
+# soma(1, 20, 10)
+# soma(15, 19, -8)
+# soma(9, 11)
