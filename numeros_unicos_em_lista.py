@@ -4,8 +4,10 @@
 
 lista_user = []
 while True:
-    lista_user.append(int(input("Insira seu numero: ")))
-    continuar = str(input("Deseja continuar inserindo numeros? S/N ")).upper()
+    numeros = (int(input("Insira seu numero: ")))
+    if numeros not in lista_user:
+        lista_user.append(numeros)
+        continuar = str(input("Deseja continuar inserindo numeros? S/N ")).upper()
     if continuar in 'Ss':
         lista_user.append(int(input("Insira seu numero: ")))
         continuar = str(input("Deseja continuar inserindo numeros? S/N ")).upper()
